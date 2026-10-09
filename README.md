@@ -28,6 +28,13 @@ Patients with heart disease had slightly higher average cholesterol and resting 
 **6. Exercise-Induced Angina vs. Heart Disease**
 Patients who experienced exercise-induced angina had a dramatically higher heart disease rate — 85.18% — compared to just 35.10% among those without it. Of the 371 patients with exercise angina, 316 had heart disease. This was the single strongest predictor found in this analysis, suggesting exercise-induced chest pain is a far more reliable signal than resting chest pain classification alone.
 
+## Key Findings
+- Nearly 1 in 5 patients (19%) had Cholesterol recorded as 0 — a physiologically impossible value likely representing missing/unrecorded data rather than an actual zero reading, highlighting the importance of validating "valid-looking" numeric fields before analysis
+- Exercise-induced angina was the strongest predictor: 85% disease rate vs. 35% without it
+- Asymptomatic patients (no chest pain) had the *highest* disease rate (79%) of any chest pain category — higher than patients with "typical" angina (43%)
+- Patients with heart disease averaged 5 years older and had noticeably lower max heart rate (127.7 vs. 148.2 bpm)
+- Male patients showed a substantially higher disease rate (63%) than female patients (26%)
+
 ## Summary
 Across all six questions, the strongest signals for heart disease in this dataset were: **exercise-induced angina** (85% disease rate) and **asymptomatic chest pain classification** (79% disease rate) — both counterintuitive in different ways, since one is a strong symptom and the other is the absence of symptoms. Age and sex also showed clear, expected patterns (older patients and male patients at higher risk), while resting clinical measures (cholesterol, BP) showed smaller but directionally consistent differences.
 
