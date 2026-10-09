@@ -17,11 +17,11 @@ Asymptomatic (ASY) patients had the highest heart disease rate at 79.03%, follow
 This is a counterintuitive and clinically significant finding: patients experiencing no chest pain symptoms at all had by far the highest rate of underlying heart disease. This suggests chest pain presence is not a reliable standalone screening indicator — asymptomatic patients may be underdiagnosed or diagnosed later, since there's no obvious symptom prompting earlier evaluation.
 
 **5. Clinical Measures: Disease vs. No Disease**
-| Metric              | No Disease | Disease |
-----------------------------------------------
-| Avg. Cholesterol    | 238.8      | 251.1   |
-| Avg. Resting BP     | 130.2      | 134.4   |
-| Avg. Max Heart Rate | 148.2      | 127.7   |
+| Metric | No Disease | Disease |
+|---|---|---|
+| Avg. Cholesterol | 238.8 | 251.1 |
+| Avg. Resting BP | 130.2 | 134.4 |
+| Avg. Max Heart Rate | 148.2 | 127.7 |
 
 Patients with heart disease had slightly higher average cholesterol and resting blood pressure, as expected. More notably, their average max heart rate was substantially lower (127.7 vs. 148.2) — a difference of over 20 bpm. This likely reflects reduced cardiac exercise capacity in patients with underlying heart disease, a well-documented clinical marker.
 
