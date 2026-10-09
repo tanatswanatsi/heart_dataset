@@ -33,7 +33,13 @@ Patients who experienced exercise-induced angina had a dramatically higher heart
 - Exercise-induced angina was the strongest predictor: 85% disease rate vs. 35% without it
 - Asymptomatic patients (no chest pain) had the *highest* disease rate (79%) of any chest pain category — higher than patients with "typical" angina (43%)
 - Patients with heart disease averaged 5 years older and had noticeably lower max heart rate (127.7 vs. 148.2 bpm)
-- Male patients showed a substantially higher disease rate (63%) than female patients (26%)
+- Male patients showed a substantially higher disease rate (63%) than female patients (26
+
+## Recommendations
+- **Don't rely on chest pain presence alone as a screening signal:** Since asymptomatic patients showed the highest heart disease rate, screening protocols should place equal or greater emphasis on other risk factors (age, exercise test results, cholesterol) rather than waiting for chest pain symptoms to prompt evaluation.
+- **Prioritize exercise stress testing:** Given that exercise-induced angina was the single strongest predictor in this dataset (85% disease rate), incorporating exercise-based testing into routine screening — especially for older or male patients — could catch at-risk cases earlier.
+- **Improve data collection standards for cholesterol readings:** With ~19% of cholesterol values recorded as an impossible 0, there's a clear need for stricter validation at the point of data entry/measurement to avoid losing a fifth of a key clinical variable to missing-data issues.
+- **Further research should control for confounding factors:** Since age, sex, and symptom type all independently correlate with heart disease in this dataset, a more rigorous model (e.g., logistic regression) would be needed to determine which factors are truly independent predictors versus correlated with each other.
 
 ## Summary
 Across all six questions, the strongest signals for heart disease in this dataset were: **exercise-induced angina** (85% disease rate) and **asymptomatic chest pain classification** (79% disease rate) — both counterintuitive in different ways, since one is a strong symptom and the other is the absence of symptoms. Age and sex also showed clear, expected patterns (older patients and male patients at higher risk), while resting clinical measures (cholesterol, BP) showed smaller but directionally consistent differences.
